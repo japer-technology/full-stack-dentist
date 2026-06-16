@@ -19,6 +19,11 @@ All domains share a small set of platform primitives:
 - communication
 - financial transaction
 - clinical encounter
+- association membership
+- study club
+- committee
+- event
+- election/vote
 - export package
 
 Do not let each feature invent its own identity, document, audit, or permission system.
@@ -130,6 +135,60 @@ Examples:
 - employment contract
 - incident report
 - estate instruction
+
+## Association and study-club model
+
+Organised dentistry requires institutional records separate from practice records.
+
+Canonical entities:
+
+- association tenant
+- chapter/branch
+- study club
+- member profile
+- membership class
+- membership application
+- membership term
+- renewal
+- dues invoice
+- committee
+- committee appointment
+- officer role
+- conflict disclosure
+- meeting
+- agenda
+- minutes
+- motion/resolution
+- vote/election
+- proxy
+- CPD/CE event
+- attendance record
+- certificate
+- speaker profile
+- sponsor/exhibitor
+- member communication
+- survey/consultation response
+- advocacy campaign
+- complaint/ethics matter
+- grant/donation
+
+Context matters. The same dentist may appear as a private person, practice owner, member, chapter officer, study-club convener, speaker, voter, donor, complainant, or respondent. Access must be scoped to the context, not the person alone.
+
+Study clubs need lightweight but serious workflows:
+
+- meeting calendar
+- case-presentation register
+- attendance and CPD/CE credits
+- topic library
+- speaker and host rotation
+- shared resources
+- member dues
+- sponsorship disclosure
+- peer-consultation confidentiality
+- action items
+- local bylaws/rules
+
+Complaints, ethics, peer review, elections, conflicts, and disciplinary-adjacent records require stronger separation and audit than ordinary member-directory records.
 
 ## Audit event model
 

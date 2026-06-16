@@ -25,6 +25,8 @@ full-stack-dentist/
     vault/
     student/
     credentials/
+    association/
+    study-club/
     clinical/
     business/
     finance/

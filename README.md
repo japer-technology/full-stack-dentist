@@ -15,6 +15,7 @@ Dentists currently stitch together dozens of systems:
 - accounting, payroll, insurance, inventory, suppliers
 - website, CRM, reputation, analytics, marketing
 - compliance, incident response, audits, policies
+- association, study-club, society, committee, event, CPD/CE, advocacy, and member-management tools
 - estate, succession, retirement, data export, continuity
 
 That fragmentation creates cost, lock-in, duplicated data, weak security boundaries, and poor continuity across a dentist’s career.
@@ -85,6 +86,7 @@ See `docs/standards-and-assumptions.md`.
 - Researcher
 - Retired dentist
 - Executor or continuity officer handling records after death/incapacity
+- Dental association, society, chapter, study-club, buying-group, alumni, charity, or committee administrator
 
 ## Core domains
 
@@ -103,6 +105,7 @@ See `docs/standards-and-assumptions.md`.
 - Inventory, suppliers, assets, maintenance
 - Marketing, website, reviews, CRM
 - Compliance, risk, policies, incident response
+- Association management, study-club management, membership, committees, events, CPD/CE, elections, advocacy
 - Analytics, reporting, benchmarking
 - AI assistants and automations
 - Data export, succession, retirement, and estate continuity
@@ -139,6 +142,22 @@ The first credible MVP is not a full dental empire. It is a secure personal/prof
 9. AI assistant limited to retrieval, summarisation, drafting, and checklists — no autonomous clinical advice
 
 See `docs/roadmap.md`.
+
+## Organised dentistry
+
+This project also covers software dentists need when they organise together:
+
+- dental associations and societies
+- study clubs and peer groups
+- specialist colleges and interest groups
+- alumni networks
+- CPD/CE providers
+- buying groups and supplier collectives
+- advocacy groups
+- charities and outreach programs
+- committees, boards, elections, ethics panels, and complaints processes
+
+Association and study-club management is documented in `docs/association-management.md`.
 
 ## Repository status
 

@@ -13,9 +13,10 @@ Order of operations:
 5. Export
 6. Personal/professional cockpit
 7. Practice operations
-8. Clinical records
-9. Regulated clinical workflows
-10. Advanced AI
+8. Association and study-club management
+9. Clinical records
+10. Regulated clinical workflows
+11. Advanced AI
 
 ## Phase 0: Product constitution
 
@@ -95,7 +96,34 @@ Validation:
 - create incident
 - export compliance pack
 
-## Phase 4: Patient relationship and records foundation
+## Phase 4: Association and study-club management
+
+Build:
+
+- association tenant type
+- study-club tenant type
+- member directory with privacy/visibility controls
+- membership classes and renewals
+- dues/invoice export
+- committees and officer roles
+- meetings, agendas, minutes, motions, actions
+- event and CPD/CE attendance tracking
+- certificates
+- sponsors and disclosures
+- member communications
+- basic surveys/consultations
+
+Validation:
+
+- create association tenant
+- create study club
+- enrol member
+- restrict committee-only documents
+- issue CPD/CE certificate from attendance
+- export member register and event evidence
+- prove association data does not leak into practice tenant context
+
+## Phase 5: Patient relationship and records foundation
 
 Build:
 
@@ -115,7 +143,7 @@ Validation:
 - export patient record
 - apply retention policy
 
-## Phase 5: Dental charting and imaging references
+## Phase 6: Dental charting and imaging references
 
 Build:
 
@@ -133,7 +161,7 @@ Validation:
 - attach image references
 - export structured and human-readable records
 
-## Phase 6: AI assistants
+## Phase 7: AI assistants
 
 Build only after policy/audit/vault exist:
 
@@ -154,7 +182,7 @@ Validation:
 - output review workflow
 - AI audit log
 
-## Phase 7: Multi-country policy packs
+## Phase 8: Multi-country policy packs
 
 Initial candidates:
 
@@ -167,7 +195,7 @@ Initial candidates:
 
 Each pack needs local review before regulated claims.
 
-## Phase 8: Ecosystem and integrations
+## Phase 9: Ecosystem and integrations
 
 Potential adapters:
 

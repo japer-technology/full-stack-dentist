@@ -106,6 +106,25 @@ Track:
 - professional memberships
 - supervision/mentorship evidence
 
+### Association and study-club governance
+
+Organised-dentistry modules may introduce obligations beyond ordinary practice software:
+
+- incorporated-association or company governance
+- charity/non-profit obligations
+- fundraising rules
+- lobbying and political-advocacy registers
+- election integrity
+- conflicts of interest
+- complaints, ethics, and disciplinary-adjacent confidentiality
+- speaker/sponsor disclosure
+- CPD/CE provider evidence
+- member privacy and directory-consent rules
+- chapter/branch revenue sharing
+- grant reporting
+
+Study clubs are smaller but still sensitive. Case discussions, peer consultation, sponsor influence, attendance evidence, and CPD/CE certificates need access control, provenance, and audit.
+
 ## Consent and authority registry
 
 Every sensitive action should be explainable by one of:

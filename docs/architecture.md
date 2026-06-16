@@ -13,6 +13,7 @@ It must handle unusually sensitive cross-domain data:
 - financial and tax data
 - employment and payroll data
 - marketing and website data
+- association, study-club, committee, election, event, advocacy, and membership data
 - estate and continuity data
 
 The architecture must assume compromise, jurisdictional variation, and long retention periods.
@@ -60,6 +61,7 @@ domain modules
   finance and accounting
   inventory and assets
   marketing and reputation
+  association and study-club management
   compliance and risk
   analytics
   succession and estate
@@ -139,6 +141,12 @@ Owns patient, encounter, charting, treatment-plan, consent, referral, imaging-li
 
 Owns practice operations, suppliers, inventory, assets, payroll integrations, accounting exports, and non-clinical reporting.
 
+### Association and study-club module
+
+Owns organised-dentistry workflows: association tenants, member records, membership classes, renewals, chapters, study clubs, committees, officer roles, elections, motions, minutes, CPD/CE events, certificates, sponsors, advocacy campaigns, complaints/ethics workflows, and member communications.
+
+This module must not collapse association data into practice data. A dentist can be an individual user, practice owner, association member, committee chair, event speaker, and association administrator at the same time. Those roles require explicit context switching, separate permissions, and separate audit trails.
+
 ### AI module
 
 Owns model routing, prompts, retrieval permissions, AI audit logs, human-review gates, and safety boundaries. AI never receives data unless the policy engine authorises purpose, scope, and minimum necessary context.
@@ -155,6 +163,7 @@ Every object must have a classification:
 - regulated financial
 - legal/privileged
 - credential/licensing
+- association/member governance
 - estate/continuity
 
 Access, retention, export, deletion, AI use, and logging depend on classification.
@@ -244,6 +253,8 @@ modules/
   vault/
   student/
   credentials/
+  association/
+  study-club/
   clinical/
   business/
   finance/

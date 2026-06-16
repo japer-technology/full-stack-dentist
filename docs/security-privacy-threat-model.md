@@ -22,6 +22,7 @@ Design baseline:
 - Financial and tax records
 - Staff and payroll records
 - Practice analytics
+- Association membership, study-club, committee, election, complaints, advocacy, and CPD/CE records
 - AI prompts, outputs, embeddings, and retrieval logs
 - Audit logs
 - Backups and exports
@@ -130,6 +131,21 @@ Controls:
 - explicit clinical disclaimers where relevant
 - formal validation before regulated decision support
 - jurisdiction-specific regulatory review
+
+### Association governance abuse
+
+Risk: association or study-club administrators misuse member lists, committee records, complaints, elections, advocacy data, sponsor relationships, or confidential peer-consultation records.
+
+Controls:
+
+- association/practice/personal tenant separation
+- committee-scoped permissions
+- confidential-matter compartments
+- election-administrator separation of duties
+- sponsor/conflict disclosure tracking
+- member directory visibility controls
+- audit of exports and bulk communications
+- stronger access review for complaints, ethics, elections, and disciplinary-adjacent matters
 
 ## Privacy principles
 
