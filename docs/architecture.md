@@ -8,6 +8,7 @@ It must handle unusually sensitive cross-domain data:
 
 - personal data
 - professional credential data
+- verifiable degree, skill, licence, membership, authority, and evidence claims
 - clinical patient data
 - dental imaging and documents
 - financial and tax data
@@ -41,6 +42,8 @@ core platform
   consent and authority
   audit ledger
   policy engine
+  claim/evidence/truth registry
+  interchange/protocol gateway
   event bus
   document vault
   notification service
@@ -62,8 +65,10 @@ domain modules
   inventory and assets
   marketing and reputation
   association and study-club management
+  degree, skill, and truth management
   compliance and risk
   analytics
+  AI competition and approval workflows
   succession and estate
 
 data layer
@@ -125,6 +130,16 @@ Owns users, roles, groups, sessions, MFA, delegated access, emergency access, an
 
 Owns jurisdiction, retention, consent, purpose, access rules, breach workflow, and feature availability.
 
+### Interchange and protocol gateway
+
+Owns versioned import/export adapters, signed envelopes, schema validation, protocol mappings, webhook verification, event publication, and lossy-field reports for standards such as FHIR, DICOM, OpenAPI, AsyncAPI, CloudEvents, Open Badges, CLR, xAPI, and Verifiable Credentials.
+
+No external protocol should bypass policy, classification, or audit.
+
+### Claim, evidence, and truth registry
+
+Owns structured claims about degrees, skills, CPD/CE, licences, memberships, association roles, insurance, authority, and revocation. A document is evidence; the registry decides whether the claim is asserted, verified, expired, revoked, disputed, or superseded.
+
 ### Audit ledger
 
 Owns append-only evidence of material events. Every sensitive read/write/delete/export/admin action should be recorded.
@@ -151,6 +166,8 @@ This module must not collapse association data into practice data. A dentist can
 
 Owns model routing, prompts, retrieval permissions, AI audit logs, human-review gates, and safety boundaries. AI never receives data unless the policy engine authorises purpose, scope, and minimum necessary context.
 
+The AI module should implement competition loops: scouts propose areas of interest, workers produce candidates, critics attack them, judges rank them, humans approve consequential actions, narrow executors perform approved actions, and auditors record evidence and outcomes.
+
 ## Data classification
 
 Every object must have a classification:
@@ -164,6 +181,8 @@ Every object must have a classification:
 - legal/privileged
 - credential/licensing
 - association/member governance
+- verifiable claim/evidence
+- AI proposal/review/execution
 - estate/continuity
 
 Access, retention, export, deletion, AI use, and logging depend on classification.
@@ -213,6 +232,8 @@ Potential standards and mappings:
 - SNOMED CT, ICD, CDT, LOINC, RxNorm or national equivalents where licensing and jurisdiction permit
 - OAuth2/OIDC/SAML for identity integration
 - OpenAPI and AsyncAPI for service contracts
+- CloudEvents for event envelopes
+- W3C Verifiable Credentials, Open Badges, CLR, xAPI, and cmi5 for learning/credential interchange
 - JSON Schema for internal data contracts
 
 ## Reliability expectations

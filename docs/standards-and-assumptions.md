@@ -25,7 +25,17 @@ Identity and API design:
 - SAML where enterprise integrations require it
 - OpenAPI
 - AsyncAPI
+- CloudEvents
 - JSON Schema
+
+Credentials and learning records:
+
+- W3C Verifiable Credentials 2.0
+- W3C Decentralized Identifiers where appropriate
+- 1EdTech Open Badges 3.0
+- 1EdTech Comprehensive Learner Record 2.0
+- xAPI / IEEE 9274.1.1-2023
+- cmi5 where LMS launch/runtime interoperability is needed
 
 ## Source checks performed
 
@@ -36,6 +46,10 @@ On 2026-06-16, web search confirmed current public references for:
 - OWASP ASVS official project page showing ASVS 5.0.0 as the latest stable release
 - HL7 FHIR official specification page showing FHIR R5
 - ISO pages for ISO/IEC 27701
+- W3C Verifiable Credentials 2.0 and DID pages
+- 1EdTech Open Badges 3.0 and CLR 2.0 pages
+- xAPI / IEEE 9274.1.1-2023 references
+- CloudEvents, AsyncAPI, and OpenAPI official pages
 
 ## Assumptions
 
@@ -47,6 +61,9 @@ On 2026-06-16, web search confirmed current public references for:
 - Jurisdiction policy is data/configuration, not scattered conditionals.
 - Exportability is a core feature, not an afterthought.
 - AI is useful but high-risk; default stance is deny, minimise, audit, review.
+- Data interchange is protocol-native: schema, version, authority, policy decision, and audit event travel with data.
+- Degrees, skills, licences, memberships, authority, and CPD/CE are claims backed by evidence, issuers, verification state, expiry, revocation, and audit.
+- The AI architecture is competitive and human-approved: multiple agents propose/criticise/rank, but narrow executors act only after approval for consequential changes.
 
 ## Open questions
 

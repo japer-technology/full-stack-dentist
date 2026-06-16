@@ -11,6 +11,8 @@ All domains share a small set of platform primitives:
 - role
 - authority
 - consent
+- claim
+- evidence
 - record
 - document
 - event
@@ -24,6 +26,7 @@ All domains share a small set of platform primitives:
 - committee
 - event
 - election/vote
+- AI proposal/review/approval/execution receipt
 - export package
 
 Do not let each feature invent its own identity, document, audit, or permission system.
@@ -189,6 +192,59 @@ Study clubs need lightweight but serious workflows:
 - local bylaws/rules
 
 Complaints, ethics, peer review, elections, conflicts, and disciplinary-adjacent records require stronger separation and audit than ordinary member-directory records.
+
+## Claim, evidence, and truth model
+
+Truth is represented as claims plus evidence, not documents alone.
+
+Canonical entities:
+
+- claim
+- evidence item
+- issuer
+- verifier
+- revocation source
+- skill/competency node
+- degree/program node
+- CPD/CE activity
+- licence/registration
+- membership/role/authority
+- verification task
+
+Claim states:
+
+- claimed
+- evidence uploaded
+- machine parsed
+- human reviewed
+- externally verified
+- issuer-signed
+- expired
+- superseded
+- revoked
+- disputed
+- archived
+
+Degrees, skills, licences, CPD/CE, insurance, memberships, committee roles, supervision, and executor authority should use this model.
+
+## AI competition model
+
+AI work products are also records.
+
+Canonical entities:
+
+- objective/task
+- context bundle
+- candidate proposal
+- critic review
+- judge score
+- human approval decision
+- execution request
+- execution result
+- audit receipt
+- outcome measurement
+
+The system should persist dissent, not only the winning answer. A rejected critic finding may become important later.
 
 ## Audit event model
 

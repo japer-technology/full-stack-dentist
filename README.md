@@ -16,6 +16,8 @@ Dentists currently stitch together dozens of systems:
 - website, CRM, reputation, analytics, marketing
 - compliance, incident response, audits, policies
 - association, study-club, society, committee, event, CPD/CE, advocacy, and member-management tools
+- degree, skill, credential, authority, evidence, and truth-management tools
+- AI-agent competitions that propose, critique, rank, and route actions through human approval
 - estate, succession, retirement, data export, continuity
 
 That fragmentation creates cost, lock-in, duplicated data, weak security boundaries, and poor continuity across a dentist’s career.
@@ -59,6 +61,18 @@ full-stack-dentist exists to make one trustworthy repo that can generate deploya
    - Every important state change should answer: who, what, when, where, why, and under what authority.
    - AI features must be explainable, reviewable, reversible, and clearly labelled.
 
+8. Protocol-native interchange
+   - Data crossing a boundary must use documented schemas, versioning, authority, audit, and export evidence.
+   - Support verifiable credentials, learning records, healthcare exchange, event APIs, and signed agent-action envelopes where appropriate.
+
+9. Truth is claim plus evidence
+   - Degrees, skills, licences, CPD/CE, memberships, roles, authority, and insurance are claims with issuers, evidence, expiry, revocation, confidence, and audit.
+   - AI may extract or challenge claims, but humans or trusted issuers approve truth changes.
+
+10. AI competes; humans approve
+   - The software stack should run scout/worker/critic/judge/executor/auditor agent loops.
+   - Consequential actions require human-in-the-loop approval with evidence, dissent, policy decisions, and audit receipts.
+
 ## Reference standards and frameworks
 
 Use these as baseline design inputs, not decorative badges:
@@ -94,6 +108,7 @@ See `docs/standards-and-assumptions.md`.
 - Personal knowledge management
 - Study and exam preparation
 - CPD/CE and licensing evidence
+- Degree, skill, licence, credential, membership, authority, and verifiable-claim management
 - Patient relationship management
 - Clinical records and charting
 - Treatment planning and consent
@@ -108,6 +123,7 @@ See `docs/standards-and-assumptions.md`.
 - Association management, study-club management, membership, committees, events, CPD/CE, elections, advocacy
 - Analytics, reporting, benchmarking
 - AI assistants and automations
+- AI competitions, critics, judges, human approvals, execution receipts, and outcome learning
 - Data export, succession, retirement, and estate continuity
 
 ## Architecture stance
@@ -158,6 +174,14 @@ This project also covers software dentists need when they organise together:
 - committees, boards, elections, ethics panels, and complaints processes
 
 Association and study-club management is documented in `docs/association-management.md`.
+
+## Protocols, truth, and AI competitions
+
+Three deeper system layers now guide the architecture:
+
+- `docs/interchange-protocols.md` — open interchange across healthcare, education, finance, association, event, and AI-agent boundaries.
+- `docs/degree-skill-truth-management.md` — claims, evidence, issuers, verification, expiry, revocation, and skill graphs.
+- `docs/ai-competition-human-loop.md` — scout/worker/critic/judge/executor/auditor loops where AI competes and humans approve.
 
 ## Repository status
 

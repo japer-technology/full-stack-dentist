@@ -20,11 +20,17 @@ full-stack-dentist/
     sdk/
     crypto/
     ui/
+  protocols/
+    registry.yaml
+    mappings/
   modules/
     identity/
     vault/
     student/
     credentials/
+    truth/
+    ai-competition/
+    interchange/
     association/
     study-club/
     clinical/

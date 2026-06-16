@@ -11,12 +11,15 @@ Order of operations:
 3. Audit
 4. Vault
 5. Export
-6. Personal/professional cockpit
-7. Practice operations
-8. Association and study-club management
-9. Clinical records
-10. Regulated clinical workflows
-11. Advanced AI
+6. Interchange protocol gateway
+7. Degree, skill, and truth management
+8. AI competition and human approval substrate
+9. Personal/professional cockpit
+10. Practice operations
+11. Association and study-club management
+12. Clinical records
+13. Regulated clinical workflows
+14. Advanced AI
 
 ## Phase 0: Product constitution
 
@@ -58,7 +61,29 @@ Validation:
 - restore from export
 - verify audit events
 
-## Phase 2: Dentist cockpit
+## Phase 2: Protocol, truth, and AI approval substrate
+
+Build:
+
+- interchange envelope schema
+- protocol registry skeleton
+- claim/evidence/truth registry
+- degree/licence/CPD/CE/skill claim types
+- human verification queue
+- AI task/candidate/critic/judge/approval records
+- deterministic executor boundary
+- approval audit receipts
+
+Validation:
+
+- import/export one verifiable-style credential envelope
+- create a degree claim from evidence
+- mark AI extraction separate from human verification
+- run two competing AI candidates through critic/judge records
+- require human approval before executor writes a consequential change
+- export claim/evidence/audit bundle
+
+## Phase 3: Dentist cockpit
 
 Build:
 
@@ -77,7 +102,7 @@ Validation:
 - attach evidence
 - produce regulator-ready export bundle
 
-## Phase 3: Practice operating system
+## Phase 4: Practice operating system
 
 Build:
 
@@ -96,7 +121,7 @@ Validation:
 - create incident
 - export compliance pack
 
-## Phase 4: Association and study-club management
+## Phase 5: Association and study-club management
 
 Build:
 
@@ -123,7 +148,7 @@ Validation:
 - export member register and event evidence
 - prove association data does not leak into practice tenant context
 
-## Phase 5: Patient relationship and records foundation
+## Phase 6: Patient relationship and records foundation
 
 Build:
 
@@ -143,7 +168,7 @@ Validation:
 - export patient record
 - apply retention policy
 
-## Phase 6: Dental charting and imaging references
+## Phase 7: Dental charting and imaging references
 
 Build:
 
@@ -161,7 +186,7 @@ Validation:
 - attach image references
 - export structured and human-readable records
 
-## Phase 7: AI assistants
+## Phase 8: AI assistants
 
 Build only after policy/audit/vault exist:
 
@@ -182,7 +207,7 @@ Validation:
 - output review workflow
 - AI audit log
 
-## Phase 8: Multi-country policy packs
+## Phase 9: Multi-country policy packs
 
 Initial candidates:
 
@@ -195,7 +220,7 @@ Initial candidates:
 
 Each pack needs local review before regulated claims.
 
-## Phase 9: Ecosystem and integrations
+## Phase 10: Ecosystem and integrations
 
 Potential adapters:
 
