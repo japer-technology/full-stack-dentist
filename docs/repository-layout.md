@@ -52,10 +52,25 @@ full-stack-dentist/
     monitoring/
   docs/
     adr/
+    accessibility-inclusion-and-ux.md
+    ai-competition-human-loop.md
     architecture.md
+    association-management.md
+    clinical-safety.md
     compliance-model.md
     data-model.md
+    data-sovereignty-and-licensing.md
+    degree-skill-truth-management.md
     engineering-constitution.md
+    estate-succession-continuity.md
+    glossary.md
+    governance-and-contribution.md
+    interchange-protocols.md
+    lifecycle-journey.md
+    observability-and-operations.md
+    patient-experience-and-rights.md
+    quality-and-testing-strategy.md
+    repository-layout.md
     roadmap.md
     security-privacy-threat-model.md
     standards-and-assumptions.md

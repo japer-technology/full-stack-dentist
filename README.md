@@ -183,6 +183,31 @@ Three deeper system layers now guide the architecture:
 - `docs/degree-skill-truth-management.md` — claims, evidence, issuers, verification, expiry, revocation, and skill graphs.
 - `docs/ai-competition-human-loop.md` — scout/worker/critic/judge/executor/auditor loops where AI competes and humans approve.
 
+## The full human lifecycle
+
+This is not software for the billing years alone. It follows the whole arc — a human becomes a dentist, serves, lives, retires, and hands their work to those who outlive them.
+
+- `docs/lifecycle-journey.md` — the aspiring → student → clinician → owner → retiree → legacy arc and the dangerous transitions between stages.
+- `docs/estate-succession-continuity.md` — death, incapacity, succession, record custodianship, and provider-failure continuity.
+- `docs/patient-experience-and-rights.md` — the patient as a first-class subject with enforceable rights.
+
+## Sovereignty
+
+"If you have the full source to a thing, you won that thing." Ownership is a testable property, not a slogan.
+
+- `docs/data-sovereignty-and-licensing.md` — data- and source-sovereignty guarantees, the exit test, and licensing constraints.
+
+## Cross-cutting operating layers
+
+World-class grounding across every layer, not only the domains:
+
+- `docs/clinical-safety.md` — risk classes, hazard log, and clinical launch gates.
+- `docs/quality-and-testing-strategy.md` — how "tests must prove" becomes mandatory invariant tests.
+- `docs/observability-and-operations.md` — running, monitoring, recovering, and auditing the platform.
+- `docs/accessibility-inclusion-and-ux.md` — accessibility, internationalisation, and safety-critical UX.
+- `docs/governance-and-contribution.md` — how the initiative is steered and contributed to.
+- `docs/glossary.md` — the shared vocabulary for the whole charter.
+
 ## Repository status
 
 Early product-charter phase. No clinical, privacy, or security guarantees exist until implemented and verified.
