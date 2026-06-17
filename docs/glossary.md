@@ -79,6 +79,8 @@ A world-class system needs a shared, precise vocabulary so that contributors, re
 ## People and lifecycle
 
 - Person — a human modelled once with context-specific roles (dentist, student, patient, staff, executor, etc.) (`docs/data-model.md`).
+- Personal tenant / personal vault — the dentist's private life space (health, finance, family, personal legal, digital estate), isolated by default from any practice, employer, or association tenant (`docs/personal-life-and-wellbeing.md`).
+- Personal/professional boundary — the hard divide between a dentist's private life and their regulated professional life; crossed only by explicit, audited, authority-bearing context switching.
 - Subject — the person or organisation a record is about; the patient is the subject of clinical records (`docs/patient-experience-and-rights.md`).
 - Lifecycle stage — where a person sits on the aspiring→student→clinician→owner→retiree→legacy arc (`docs/lifecycle-journey.md`).
 - Continuity authority / data custodian — who may act for the dentist's data after incapacity or death (`docs/estate-succession-continuity.md`).

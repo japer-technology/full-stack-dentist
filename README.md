@@ -4,6 +4,8 @@ A single-source, open-core super app for the full dental lifecycle: student, cli
 
 The goal is not “practice-management software with extra features.” The goal is a sovereign operating system for a dentist’s personal, professional, clinical, business, compliance, and knowledge life — without forcing them to rent fragmented third-party tools forever.
 
+It serves the *person*, not only the *practitioner*: the body that wears out, the mind under chronic load, the household finances that are not the practice’s money, the family, the personal legal and digital life, and the identity that exists outside the chair. See `docs/personal-life-and-wellbeing.md`.
+
 ## Product thesis
 
 Dentists currently stitch together dozens of systems:
@@ -19,6 +21,7 @@ Dentists currently stitch together dozens of systems:
 - degree, skill, credential, authority, evidence, and truth-management tools
 - AI-agent competitions that propose, critique, rank, and route actions through human approval
 - estate, succession, retirement, data export, continuity
+- personal life: wellbeing, occupational/personal health, household finance, family, personal legal, and digital estate — kept separate from professional and patient data
 
 That fragmentation creates cost, lock-in, duplicated data, weak security boundaries, and poor continuity across a dentist’s career.
 
@@ -125,6 +128,7 @@ See `docs/standards-and-assumptions.md`.
 - AI assistants and automations
 - AI competitions, critics, judges, human approvals, execution receipts, and outcome learning
 - Data export, succession, retirement, and estate continuity
+- Personal life and wellbeing: the dentist as a whole human — occupational and personal health, mental health and burnout, household finance, family and caregiving, personal legal and life admin, and personal digital estate
 
 ## Architecture stance
 
@@ -190,6 +194,12 @@ This is not software for the billing years alone. It follows the whole arc — a
 - `docs/lifecycle-journey.md` — the aspiring → student → clinician → owner → retiree → legacy arc and the dangerous transitions between stages.
 - `docs/estate-succession-continuity.md` — death, incapacity, succession, record custodianship, and provider-failure continuity.
 - `docs/patient-experience-and-rights.md` — the patient as a first-class subject with enforceable rights.
+
+## The whole human, not only the practitioner
+
+This is software for the person who happens to be a dentist, not only for the dentist at work. A career punishes the body, loads the mind, and entangles personal and professional finance and continuity. The platform serves that private life with its highest privacy posture and a hard boundary against the professional world.
+
+- `docs/personal-life-and-wellbeing.md` — occupational and personal health, mental health and burnout, household finance and wealth, family and caregiving, personal legal and life admin, personal digital estate, and the strictly-bounded personal/professional divide.
 
 ## Sovereignty
 

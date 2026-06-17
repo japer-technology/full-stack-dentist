@@ -69,6 +69,7 @@ full-stack-dentist/
     lifecycle-journey.md
     observability-and-operations.md
     patient-experience-and-rights.md
+    personal-life-and-wellbeing.md
     quality-and-testing-strategy.md
     repository-layout.md
     roadmap.md
