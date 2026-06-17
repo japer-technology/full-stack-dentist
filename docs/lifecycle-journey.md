@@ -105,7 +105,8 @@ Regardless of stage, these never change:
 - truth is claim plus evidence, not a document folder (`docs/degree-skill-truth-management.md`);
 - sensitive access is policy-gated, audited, and jurisdiction-scoped (`docs/security-privacy-threat-model.md`);
 - clinical risk classes are never blurred with administrative convenience (`docs/clinical-safety.md`);
-- AI proposes, humans approve consequential change (`docs/ai-competition-human-loop.md`).
+- AI proposes, humans approve consequential change (`docs/ai-competition-human-loop.md`);
+- the person is served, not only the practitioner — private life stays isolated from the professional world by default (`docs/personal-life-and-wellbeing.md`).
 
 ## Rule
 
