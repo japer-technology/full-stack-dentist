@@ -201,6 +201,12 @@ This is software for the person who happens to be a dentist, not only for the de
 
 - `docs/personal-life-and-wellbeing.md` — occupational and personal health, mental health and burnout, household finance and wealth, family and caregiving, personal legal and life admin, personal digital estate, and the strictly-bounded personal/professional divide.
 
+## How this stack is built
+
+This stack is assembled with the best AI available, in consultation with dental groups and associations, and improved by an evolutionary "survival of the fittest" model. Those phrases are treated as disciplined commitments, not slogans: AI works inside the human-in-the-loop model, consultation is recorded as evidence and never overrides safety or law, and a candidate only survives if it is measurably fitter against an explicit, charter-aligned fitness function.
+
+- `docs/build-philosophy-and-evolution.md` — how the platform is built with AI and stakeholders, and the variation/selection/inheritance rules that bound the evolutionary model.
+
 ## Sovereignty
 
 "If you have the full source to a thing, you won that thing." Ownership is a testable property, not a slogan.
