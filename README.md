@@ -224,6 +224,57 @@ World-class grounding across every layer, not only the domains:
 - `docs/governance-and-contribution.md` — how the initiative is steered and contributed to.
 - `docs/glossary.md` — the shared vocabulary for the whole charter.
 
+## Documentation index
+
+Every document in this repository, linked for ease of use.
+
+### Product and architecture
+
+- [Architecture](docs/architecture.md) — the canonical modular-monorepo architecture.
+- [Repository Layout](docs/repository-layout.md) — the initial folder structure and what belongs where.
+- [Roadmap](docs/roadmap.md) — phased delivery plan and the MVP definition.
+- [Data Model](docs/data-model.md) — canonical entities and relationships.
+- [Standards and Assumptions](docs/standards-and-assumptions.md) — baseline reference standards and frameworks.
+- [Glossary](docs/glossary.md) — the shared vocabulary for the whole charter.
+
+### Security, privacy, and compliance
+
+- [Security, Privacy, and Threat Model](docs/security-privacy-threat-model.md) — trust boundaries, threats, and mitigations.
+- [Compliance Model](docs/compliance-model.md) — jurisdiction and regulatory policy approach.
+- [Clinical Safety](docs/clinical-safety.md) — risk classes, hazard log, and clinical launch gates.
+- [Data Sovereignty and Licensing](docs/data-sovereignty-and-licensing.md) — data- and source-sovereignty guarantees, the exit test, and licensing constraints.
+
+### Engineering and operations
+
+- [Engineering Constitution](docs/engineering-constitution.md) — non-negotiable engineering rules.
+- [Quality and Testing Strategy](docs/quality-and-testing-strategy.md) — how "tests must prove" becomes mandatory invariant tests.
+- [Observability and Operations](docs/observability-and-operations.md) — running, monitoring, recovering, and auditing the platform.
+- [Accessibility, Inclusion, and UX](docs/accessibility-inclusion-and-ux.md) — accessibility, internationalisation, and safety-critical UX.
+- [Governance and Contribution](docs/governance-and-contribution.md) — how the initiative is steered and contributed to.
+- [Build Philosophy and Evolution](docs/build-philosophy-and-evolution.md) — how the platform is built with AI and stakeholders, and the variation/selection/inheritance rules that bound the evolutionary model.
+
+### Protocols, truth, and AI
+
+- [Data Interchange Protocols](docs/interchange-protocols.md) — open interchange across healthcare, education, finance, association, event, and AI-agent boundaries.
+- [Degree, Skill, and Truth Management](docs/degree-skill-truth-management.md) — claims, evidence, issuers, verification, expiry, revocation, and skill graphs.
+- [AI Competition and Human-in-the-Loop](docs/ai-competition-human-loop.md) — scout/worker/critic/judge/executor/auditor loops where AI competes and humans approve.
+
+### People, lifecycle, and organised dentistry
+
+- [Lifecycle Journey](docs/lifecycle-journey.md) — the aspiring → student → clinician → owner → retiree → legacy arc and the dangerous transitions between stages.
+- [Estate, Succession, and Continuity](docs/estate-succession-continuity.md) — death, incapacity, succession, record custodianship, and provider-failure continuity.
+- [Patient Experience and Rights](docs/patient-experience-and-rights.md) — the patient as a first-class subject with enforceable rights.
+- [Personal Life and Wellbeing](docs/personal-life-and-wellbeing.md) — occupational and personal health, mental health and burnout, household finance and wealth, family and caregiving, personal legal and life admin, personal digital estate, and the strictly-bounded personal/professional divide.
+- [Association Management](docs/association-management.md) — associations, societies, study clubs, committees, events, and member management.
+
+### Architecture Decision Records (ADRs)
+
+- [ADR 0001: Start with Trust Substrate, Not Patient Charting](docs/adr/0001-trust-substrate-first.md)
+- [ADR 0002: Organised Dentistry Is a First-Class Domain](docs/adr/0002-organised-dentistry-first-class.md)
+- [ADR 0003: Protocol-Native Truth and AI Competition Architecture](docs/adr/0003-protocol-truth-ai-competition.md)
+- [ADR 0004: Document the Full Human Lifecycle, Sovereignty, and Cross-Cutting Operating Layers](docs/adr/0004-document-full-lifecycle-and-sovereignty.md)
+- [ADR 0005: Make Personal Life and Wellbeing a First-Class Dimension](docs/adr/0005-personal-life-and-wellbeing.md)
+
 ## Repository status
 
 Early product-charter phase. No clinical, privacy, or security guarantees exist until implemented and verified.
