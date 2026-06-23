@@ -56,6 +56,7 @@ full-stack-dentist/
     ai-competition-human-loop.md
     architecture.md
     association-management.md
+    build-philosophy-and-evolution.md
     clinical-safety.md
     compliance-model.md
     data-model.md
